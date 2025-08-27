@@ -9,7 +9,7 @@ for 1 in numeros [-1: :-2]:
       pares.append (2*int(i))
       else:
       pares.append (2*int(i) -10+1)
-    soma = sum(pares)+sum(impares)
+  soma = sum(pares)+sum(impares)
   if int(soma/10) == soma/10:
     print(“cartão válido)
     else:
